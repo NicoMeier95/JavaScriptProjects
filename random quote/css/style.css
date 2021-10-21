@@ -1,0 +1,47 @@
+html,
+body {
+    background-color: #e4e4e4;
+    text-align: center;
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 6rem;
+    color: #222;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 1.6rem;
+    color: #222;
+}
+
+button {
+    padding: 1rem 3rem;
+    background-color: blue;
+    color: #e4e4e4;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid blue;
+    border-radius: 4px;
+    transition: all .2s;
+}
+
+button:hover {
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    transform: scale(1.1);
+    color: white;
+}
+
+.quote {
+    background-color: beige;
+    border: 2px solid darkblue;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 1rem;
+    display: none;
+    max-width: 60%;
+}
