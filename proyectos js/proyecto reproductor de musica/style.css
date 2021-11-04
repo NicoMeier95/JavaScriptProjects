@@ -1,0 +1,72 @@
+html,
+body {
+    background-color: #01001c;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #dbd9fa;
+    font-size: 62.5%;
+}
+
+.container {
+    width: 70vw;
+    height: 100vh;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.autor {
+    font-size: 1.3rem;
+}
+
+.listado-canciones {
+    width: 100%;
+}
+
+.cancion {
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.info {
+    flex: 6;
+}
+
+.play,
+.stop,
+.download {
+    flex: 1;
+}
+
+.download a:visited,
+.download a:active,
+.download a:link {
+    text-decoration: none;
+    color: #dbd9fa;
+}
+
+span {
+    cursor: pointer;
+}
+
+.barravolumen {
+    margin: 4rem auto;
+    display: flex;
+    align-items: center;
+    color: #dbd9fa;
+}
